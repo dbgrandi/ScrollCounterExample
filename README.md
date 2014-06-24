@@ -4,4 +4,4 @@ Here's what my version looks like:
 
 !()[./screenshot.gif]
 
-I wrote about it on the (Internets)[http://dbgrandi.github.io/learning-design-counter]
+I wrote about it on the (Internets)[http://dbgrandi.github.io]
