@@ -16,50 +16,27 @@
 		553209D618340C1D00CA3DB1 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553209D418340C1D00CA3DB1 /* Main_iPhone.storyboard */; };
 		553209DC18340C1D00CA3DB1 /* DBGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 553209DB18340C1D00CA3DB1 /* DBGViewController.m */; };
 		553209DE18340C1D00CA3DB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 553209DD18340C1D00CA3DB1 /* Images.xcassets */; };
-		553209E518340C1D00CA3DB1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553209E418340C1D00CA3DB1 /* XCTest.framework */; };
-		553209E618340C1D00CA3DB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553209C218340C1D00CA3DB1 /* Foundation.framework */; };
-		553209E718340C1D00CA3DB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553209C618340C1D00CA3DB1 /* UIKit.framework */; };
-		553209EF18340C1D00CA3DB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 553209ED18340C1D00CA3DB1 /* InfoPlist.strings */; };
-		553209F118340C1D00CA3DB1 /* DBGScrollCounterExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 553209F018340C1D00CA3DB1 /* DBGScrollCounterExampleTests.m */; };
 		55320A0018342F1A00CA3DB1 /* DBGDigitContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 553209FF18342F1A00CA3DB1 /* DBGDigitContentView.m */; };
-		55320A0118342F1A00CA3DB1 /* DBGDigitContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 553209FF18342F1A00CA3DB1 /* DBGDigitContentView.m */; };
 		55320A0418342FF000CA3DB1 /* DBGDigitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55320A0318342FF000CA3DB1 /* DBGDigitView.m */; };
-		55320A0518342FF000CA3DB1 /* DBGDigitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55320A0318342FF000CA3DB1 /* DBGDigitView.m */; };
-		599A4F9E8C9646D3925A215F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D74F5EC39A4262B9007BDE /* libPods.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		553209E818340C1D00CA3DB1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 553209B718340C1D00CA3DB1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 553209BE18340C1D00CA3DB1;
-			remoteInfo = DBGScrollCounterExample;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		3309F57C7F6448B2BE6B339B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		44D74F5EC39A4262B9007BDE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		553209BF18340C1D00CA3DB1 /* DBGScrollCounterExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBGScrollCounterExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		553209BF18340C1D00CA3DB1 /* ScrollCounterExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollCounterExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		553209C218340C1D00CA3DB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		553209C418340C1D00CA3DB1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		553209C618340C1D00CA3DB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		553209CA18340C1D00CA3DB1 /* DBGScrollCounterExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DBGScrollCounterExample-Info.plist"; sourceTree = "<group>"; };
+		553209CA18340C1D00CA3DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		553209CC18340C1D00CA3DB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		553209CE18340C1D00CA3DB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		553209D018340C1D00CA3DB1 /* DBGScrollCounterExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DBGScrollCounterExample-Prefix.pch"; sourceTree = "<group>"; };
+		553209D018340C1D00CA3DB1 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		553209D118340C1D00CA3DB1 /* DBGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBGAppDelegate.h; sourceTree = "<group>"; };
 		553209D218340C1D00CA3DB1 /* DBGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBGAppDelegate.m; sourceTree = "<group>"; };
 		553209D518340C1D00CA3DB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		553209DA18340C1D00CA3DB1 /* DBGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBGViewController.h; sourceTree = "<group>"; };
 		553209DB18340C1D00CA3DB1 /* DBGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBGViewController.m; sourceTree = "<group>"; };
 		553209DD18340C1D00CA3DB1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		553209E318340C1D00CA3DB1 /* DBGScrollCounterExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBGScrollCounterExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		553209E418340C1D00CA3DB1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		553209EC18340C1D00CA3DB1 /* DBGScrollCounterExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DBGScrollCounterExampleTests-Info.plist"; sourceTree = "<group>"; };
-		553209EE18340C1D00CA3DB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		553209F018340C1D00CA3DB1 /* DBGScrollCounterExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBGScrollCounterExampleTests.m; sourceTree = "<group>"; };
 		553209FE18342F1A00CA3DB1 /* DBGDigitContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBGDigitContentView.h; sourceTree = "<group>"; };
 		553209FF18342F1A00CA3DB1 /* DBGDigitContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBGDigitContentView.m; sourceTree = "<group>"; };
 		55320A0218342FF000CA3DB1 /* DBGDigitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBGDigitView.h; sourceTree = "<group>"; };
@@ -74,17 +51,6 @@
 				553209C518340C1D00CA3DB1 /* CoreGraphics.framework in Frameworks */,
 				553209C718340C1D00CA3DB1 /* UIKit.framework in Frameworks */,
 				553209C318340C1D00CA3DB1 /* Foundation.framework in Frameworks */,
-				599A4F9E8C9646D3925A215F /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		553209E018340C1D00CA3DB1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				553209E518340C1D00CA3DB1 /* XCTest.framework in Frameworks */,
-				553209E718340C1D00CA3DB1 /* UIKit.framework in Frameworks */,
-				553209E618340C1D00CA3DB1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,19 +60,16 @@
 		553209B618340C1D00CA3DB1 = {
 			isa = PBXGroup;
 			children = (
-				553209C818340C1D00CA3DB1 /* DBGScrollCounterExample */,
-				553209EA18340C1D00CA3DB1 /* DBGScrollCounterExampleTests */,
+				553209C818340C1D00CA3DB1 /* ScrollCounterExample */,
 				553209C118340C1D00CA3DB1 /* Frameworks */,
 				553209C018340C1D00CA3DB1 /* Products */,
-				3309F57C7F6448B2BE6B339B /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
 		553209C018340C1D00CA3DB1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				553209BF18340C1D00CA3DB1 /* DBGScrollCounterExample.app */,
-				553209E318340C1D00CA3DB1 /* DBGScrollCounterExampleTests.xctest */,
+				553209BF18340C1D00CA3DB1 /* ScrollCounterExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,7 +86,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		553209C818340C1D00CA3DB1 /* DBGScrollCounterExample */ = {
+		553209C818340C1D00CA3DB1 /* ScrollCounterExample */ = {
 			isa = PBXGroup;
 			children = (
 				553209D118340C1D00CA3DB1 /* DBGAppDelegate.h */,
@@ -138,34 +101,16 @@
 				55320A0218342FF000CA3DB1 /* DBGDigitView.h */,
 				55320A0318342FF000CA3DB1 /* DBGDigitView.m */,
 			);
-			path = DBGScrollCounterExample;
+			path = ScrollCounterExample;
 			sourceTree = "<group>";
 		};
 		553209C918340C1D00CA3DB1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				553209CA18340C1D00CA3DB1 /* DBGScrollCounterExample-Info.plist */,
+				553209CA18340C1D00CA3DB1 /* Info.plist */,
 				553209CB18340C1D00CA3DB1 /* InfoPlist.strings */,
 				553209CE18340C1D00CA3DB1 /* main.m */,
-				553209D018340C1D00CA3DB1 /* DBGScrollCounterExample-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		553209EA18340C1D00CA3DB1 /* DBGScrollCounterExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				553209F018340C1D00CA3DB1 /* DBGScrollCounterExampleTests.m */,
-				553209EB18340C1D00CA3DB1 /* Supporting Files */,
-			);
-			path = DBGScrollCounterExampleTests;
-			sourceTree = "<group>";
-		};
-		553209EB18340C1D00CA3DB1 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				553209EC18340C1D00CA3DB1 /* DBGScrollCounterExampleTests-Info.plist */,
-				553209ED18340C1D00CA3DB1 /* InfoPlist.strings */,
+				553209D018340C1D00CA3DB1 /* Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -173,42 +118,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		553209BE18340C1D00CA3DB1 /* DBGScrollCounterExample */ = {
+		553209BE18340C1D00CA3DB1 /* ScrollCounterExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 553209F418340C1D00CA3DB1 /* Build configuration list for PBXNativeTarget "DBGScrollCounterExample" */;
+			buildConfigurationList = 553209F418340C1D00CA3DB1 /* Build configuration list for PBXNativeTarget "ScrollCounterExample" */;
 			buildPhases = (
-				C19FF9AAED854857B38FAEE6 /* Check Pods Manifest.lock */,
 				553209BB18340C1D00CA3DB1 /* Sources */,
 				553209BC18340C1D00CA3DB1 /* Frameworks */,
 				553209BD18340C1D00CA3DB1 /* Resources */,
-				FCDEA4B922D549B686C9C25A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = DBGScrollCounterExample;
+			name = ScrollCounterExample;
 			productName = DBGScrollCounterExample;
-			productReference = 553209BF18340C1D00CA3DB1 /* DBGScrollCounterExample.app */;
+			productReference = 553209BF18340C1D00CA3DB1 /* ScrollCounterExample.app */;
 			productType = "com.apple.product-type.application";
-		};
-		553209E218340C1D00CA3DB1 /* DBGScrollCounterExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 553209F718340C1D00CA3DB1 /* Build configuration list for PBXNativeTarget "DBGScrollCounterExampleTests" */;
-			buildPhases = (
-				553209DF18340C1D00CA3DB1 /* Sources */,
-				553209E018340C1D00CA3DB1 /* Frameworks */,
-				553209E118340C1D00CA3DB1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				553209E918340C1D00CA3DB1 /* PBXTargetDependency */,
-			);
-			name = DBGScrollCounterExampleTests;
-			productName = DBGScrollCounterExampleTests;
-			productReference = 553209E318340C1D00CA3DB1 /* DBGScrollCounterExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -219,13 +144,8 @@
 				CLASSPREFIX = DBG;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "David Grandinetti";
-				TargetAttributes = {
-					553209E218340C1D00CA3DB1 = {
-						TestTargetID = 553209BE18340C1D00CA3DB1;
-					};
-				};
 			};
-			buildConfigurationList = 553209BA18340C1D00CA3DB1 /* Build configuration list for PBXProject "DBGScrollCounterExample" */;
+			buildConfigurationList = 553209BA18340C1D00CA3DB1 /* Build configuration list for PBXProject "ScrollCounterExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -238,8 +158,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				553209BE18340C1D00CA3DB1 /* DBGScrollCounterExample */,
-				553209E218340C1D00CA3DB1 /* DBGScrollCounterExampleTests */,
+				553209BE18340C1D00CA3DB1 /* ScrollCounterExample */,
 			);
 		};
 /* End PBXProject section */
@@ -255,48 +174,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		553209E118340C1D00CA3DB1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				553209EF18340C1D00CA3DB1 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		C19FF9AAED854857B38FAEE6 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		FCDEA4B922D549B686C9C25A /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		553209BB18340C1D00CA3DB1 /* Sources */ = {
@@ -311,25 +189,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		553209DF18340C1D00CA3DB1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				55320A0118342F1A00CA3DB1 /* DBGDigitContentView.m in Sources */,
-				553209F118340C1D00CA3DB1 /* DBGScrollCounterExampleTests.m in Sources */,
-				55320A0518342FF000CA3DB1 /* DBGDigitView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		553209E918340C1D00CA3DB1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 553209BE18340C1D00CA3DB1 /* DBGScrollCounterExample */;
-			targetProxy = 553209E818340C1D00CA3DB1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		553209CB18340C1D00CA3DB1 /* InfoPlist.strings */ = {
@@ -346,14 +206,6 @@
 				553209D518340C1D00CA3DB1 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		553209ED18340C1D00CA3DB1 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				553209EE18340C1D00CA3DB1 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -435,13 +287,12 @@
 		};
 		553209F518340C1D00CA3DB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3309F57C7F6448B2BE6B339B /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DBGScrollCounterExample/DBGScrollCounterExample-Prefix.pch";
-				INFOPLIST_FILE = "DBGScrollCounterExample/DBGScrollCounterExample-Info.plist";
+				GCC_PREFIX_HEADER = ScrollCounterExample/Prefix.pch;
+				INFOPLIST_FILE = ScrollCounterExample/Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -450,65 +301,22 @@
 		};
 		553209F618340C1D00CA3DB1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3309F57C7F6448B2BE6B339B /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DBGScrollCounterExample/DBGScrollCounterExample-Prefix.pch";
-				INFOPLIST_FILE = "DBGScrollCounterExample/DBGScrollCounterExample-Info.plist";
+				GCC_PREFIX_HEADER = ScrollCounterExample/Prefix.pch;
+				INFOPLIST_FILE = ScrollCounterExample/Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		553209F818340C1D00CA3DB1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DBGScrollCounterExample.app/DBGScrollCounterExample";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DBGScrollCounterExample/DBGScrollCounterExample-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "DBGScrollCounterExampleTests/DBGScrollCounterExampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		553209F918340C1D00CA3DB1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DBGScrollCounterExample.app/DBGScrollCounterExample";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DBGScrollCounterExample/DBGScrollCounterExample-Prefix.pch";
-				INFOPLIST_FILE = "DBGScrollCounterExampleTests/DBGScrollCounterExampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		553209BA18340C1D00CA3DB1 /* Build configuration list for PBXProject "DBGScrollCounterExample" */ = {
+		553209BA18340C1D00CA3DB1 /* Build configuration list for PBXProject "ScrollCounterExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				553209F218340C1D00CA3DB1 /* Debug */,
@@ -517,20 +325,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		553209F418340C1D00CA3DB1 /* Build configuration list for PBXNativeTarget "DBGScrollCounterExample" */ = {
+		553209F418340C1D00CA3DB1 /* Build configuration list for PBXNativeTarget "ScrollCounterExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				553209F518340C1D00CA3DB1 /* Debug */,
 				553209F618340C1D00CA3DB1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		553209F718340C1D00CA3DB1 /* Build configuration list for PBXNativeTarget "DBGScrollCounterExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				553209F818340C1D00CA3DB1 /* Debug */,
-				553209F918340C1D00CA3DB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

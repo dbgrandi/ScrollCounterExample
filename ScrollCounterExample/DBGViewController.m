@@ -11,6 +11,9 @@
 
 @interface DBGViewController ()
 
+/**
+ * Views for each digit we are showing.
+ */
 @property (nonatomic, weak) IBOutlet DBGDigitView *onesDigitView;
 @property (nonatomic, weak) IBOutlet DBGDigitView *tensDigitView;
 @property (nonatomic, weak) IBOutlet DBGDigitView *hundredsDigitView;
@@ -21,7 +24,16 @@
 @property (nonatomic, weak) IBOutlet DBGDigitView *tenMillionsDigitView;
 @property (nonatomic, weak) IBOutlet DBGDigitView *hundredMillionsDigitView;
 
+/*
+ * NSTimer to be called once per second and add some random number to
+ * the counter. This will get those numbers spinning.
+ */
 @property (nonatomic) NSTimer *addNumberTimer;
+
+
+/**
+ * Holds the actual number that we show with the DigitViews
+ */
 @property (nonatomic) NSInteger number;
 
 @end
@@ -46,13 +58,14 @@
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
     [self.addNumberTimer invalidate];
 }
 
 - (void)addRandomNumber:(NSTimer *)timer {
     self.number += 500 + arc4random_uniform(3000);
     NSInteger tmpNumber = self.number;
-    NSLog(@"tmpNumber = %d", tmpNumber);
+    NSLog(@"tmpNumber = %ld", (long)tmpNumber);
     
     if (![NSThread isMainThread]) {
         NSLog(@"You are NOT on the main thread, dummy");
