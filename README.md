@@ -2,6 +2,6 @@ Quick hack on copying a counter I saw at [Wunderlist](https://www.wunderlist.com
 
 Here's what my version looks like:
 
-![]()./screenshot.gif)
+![Screenshot](https://raw.githubusercontent.com/dbgrandi/ScrollCounterExample/master/screenshot.gif)
 
 I wrote about it on the [Internets](http://dbgrandi.github.io)
