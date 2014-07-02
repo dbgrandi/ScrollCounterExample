@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0500"
+   LastUpgradeVersion = "0510"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "553209BE18340C1D00CA3DB1"
-               BuildableName = "DBGScrollCounterExample.app"
-               BlueprintName = "DBGScrollCounterExample"
-               ReferencedContainer = "container:DBGScrollCounterExample.xcodeproj">
+               BuildableName = "ScrollCounterExample.app"
+               BlueprintName = "ScrollCounterExample"
+               ReferencedContainer = "container:ScrollCounterExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,24 +28,14 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "553209E218340C1D00CA3DB1"
-               BuildableName = "DBGScrollCounterExampleTests.xctest"
-               BlueprintName = "DBGScrollCounterExampleTests"
-               ReferencedContainer = "container:DBGScrollCounterExample.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "553209BE18340C1D00CA3DB1"
-            BuildableName = "DBGScrollCounterExample.app"
-            BlueprintName = "DBGScrollCounterExample"
-            ReferencedContainer = "container:DBGScrollCounterExample.xcodeproj">
+            BuildableName = "ScrollCounterExample.app"
+            BlueprintName = "ScrollCounterExample"
+            ReferencedContainer = "container:ScrollCounterExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "553209BE18340C1D00CA3DB1"
-            BuildableName = "DBGScrollCounterExample.app"
-            BlueprintName = "DBGScrollCounterExample"
-            ReferencedContainer = "container:DBGScrollCounterExample.xcodeproj">
+            BuildableName = "ScrollCounterExample.app"
+            BlueprintName = "ScrollCounterExample"
+            ReferencedContainer = "container:ScrollCounterExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "553209BE18340C1D00CA3DB1"
-            BuildableName = "DBGScrollCounterExample.app"
-            BlueprintName = "DBGScrollCounterExample"
-            ReferencedContainer = "container:DBGScrollCounterExample.xcodeproj">
+            BuildableName = "ScrollCounterExample.app"
+            BlueprintName = "ScrollCounterExample"
+            ReferencedContainer = "container:ScrollCounterExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
