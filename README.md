@@ -4,4 +4,4 @@ Here's what my version looks like:
 
 ![Screenshot](https://raw.githubusercontent.com/dbgrandi/ScrollCounterExample/master/screenshot.gif)
 
-I wrote about it on the [Internets](http://dbgrandi.github.io)
+I wrote about it on the [Internets](http://dbgrandi.github.io/a_simple_scroll_counter)
